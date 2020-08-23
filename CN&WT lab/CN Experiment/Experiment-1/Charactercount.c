@@ -17,7 +17,7 @@ int main()
     printf("\nAT THE SENDER\n");
 	printf("Data as frames:\n");
 	for (int i=0;i<n;i++) {
-		printf("Frame %d:%ld %s",i+1,strlen(c[i]+1),c[i]);
+		printf("Frame %d:%ld %s",i+1,strlen(c[i]),c[i]);
 		printf("\n");
 	}printf("\nAT THE RECEIEVER\n");
 	printf("Data received\n");
