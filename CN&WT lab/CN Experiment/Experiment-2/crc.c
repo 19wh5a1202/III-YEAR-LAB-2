@@ -54,5 +54,5 @@
                 printf("%c",input[i]);
             for(i=0;i<keylen-1;i++)
                 printf("%c",rem[i]);
-            getch();
+           
  }
